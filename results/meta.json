@@ -1,0 +1,19 @@
+{
+  "command": "./domain-scan-master/scan --scan=sslyze,pshtt /var/folders/st/r84_5zbx7xx8vy8zl8n80v7h0000gn/T/tmppnvho9pb.csv",
+  "duration": "35.978334",
+  "durations": {
+    "pshtt": {
+      "duration": "22.904981",
+      "end_time": "2017-12-19T22:02:30.640549Z",
+      "start_time": "2017-12-19T22:02:07.735568Z"
+    },
+    "sslyze": {
+      "duration": "8.336045",
+      "end_time": "2017-12-19T22:02:07.735286Z",
+      "start_time": "2017-12-19T22:01:59.399241Z"
+    }
+  },
+  "end_time": "2017-12-19T22:02:30.640944Z",
+  "scan_uuid": "fdb4d202-1345-488f-9f34-5be724213bcd",
+  "start_time": "2017-12-19T22:01:54.66261Z"
+}
