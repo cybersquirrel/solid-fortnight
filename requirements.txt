@@ -35,7 +35,7 @@ pathvalidate==0.16.2
 pexpect==4.3.1
 pickleshare==0.7.4
 prompt-toolkit==1.0.15
-pshtt==0.4.0.dev0
+git+git://github.com/dhs-ncats/pshtt.git#egg=pshtt
 psycopg2==2.7.3.2
 ptyprocess==0.5.2
 publicsuffix==1.1.0
