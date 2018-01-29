@@ -23,7 +23,7 @@ class Command(BaseCommand):
 			writer.writerow([str(domain.name), ])
 		
 		tmpCSV.close()	
-		s = subprocess.run(args=[path_to_scanner, scanners, tmpCSV.name])
+		s = subprocess.call(args=[path_to_scanner, scanners, tmpCSV.name])
 
 		self.stdout.write("back again")
 		self.stdout.write(str(s))
